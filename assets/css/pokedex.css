@@ -84,11 +84,15 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    transition: transform .2s;
+}
+
+.pokemon:hover {
+    transform: scale(1.1);
 }
 
 .pokemon .number {
-    color: #000;
-    opacity: .3;
+    color: #fff;
     text-align: right;
     font-size: .625rem;
 }
